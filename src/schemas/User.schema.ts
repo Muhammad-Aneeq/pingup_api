@@ -13,10 +13,10 @@ export class Users {
   password: string;
 
   @Prop({ required: true })
-  phoneNumber: number;
+  phoneNumber: string;
 
   @Prop({ required: true })
-  cnic: number;
+  cnic: string;
 
   @Prop({ required: true })
   city: string;
