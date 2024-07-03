@@ -6,11 +6,11 @@ async function bootstrap() {
 
   // Enable CORS
   app.enableCors({
-    origin: 'https://pingup-frontend.vercel.app',
+    origin: 'http://localhost:3000',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type, Accept, Authorization',
   });
 
-  await app.listen(3000);
+  await app.listen(4000);
 }
 bootstrap();
